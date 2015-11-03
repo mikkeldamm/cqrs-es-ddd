@@ -1,0 +1,27 @@
+{
+  "name": "reservationwebapp",
+  "version": "1.0.0",
+  "description": "this is a dumb web application built with angular to work with the 2 web api's (command &amp; queries)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+		"postinstall": "bower install && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkeldamm/reservation-webapp.git"
+  },
+  "author": "mikkel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikkeldamm/reservation-webapp/issues"
+  },
+  "homepage": "https://github.com/mikkeldamm/reservation-webapp#readme",
+  "dependencies": {
+    "bower": "1.5.2",
+		"express": "4.13.3",
+		"gulp": "3.9.0",
+		"gulp-concat": "2.6.0",
+		"gulp-typescript": "*"
+  }
+}

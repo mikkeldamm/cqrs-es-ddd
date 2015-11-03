@@ -1,0 +1,22 @@
+{
+  "name": "reservation-webapp",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mikkeldamm/reservation-webapp.git",
+  "authors": [
+    "mikkel <mikkeldamm@hotmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "angular": "*",
+    "angular-resource": "*",
+    "angular-cookies": "*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
